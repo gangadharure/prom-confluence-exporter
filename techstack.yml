@@ -1,0 +1,166 @@
+repo_name: gangadharure/prom-confluence-exporter
+report_id: 83d21e07a1b98cfcd60776d0460ac0f8
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:16:10+00:00'
+requested_by: AndreyVMarkelov
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter/blob/master/src/main/resources/ru/andreymarkelov/atlas/plugins/promconfluenceexporter/js/vue.min.js
+  detection_source: src/main/resources/ru/andreymarkelov/atlas/plugins/promconfluenceexporter/js/vue.min.js
+  last_updated_by: amarkelov
+  last_updated_on: 2017-12-16 21:40:39.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter
+  detection_source: Repo Metadata
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Andrey Markelov
+  last_updated_on: 2019-12-22 09:26:24.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: amarkelov
+  last_updated_on: 2018-02-11 21:05:46.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter
+  detection_source: Repo Metadata
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: amarkelov
+  last_updated_on: 2017-10-04 13:14:59.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: io.prometheus:simpleclient
+  description: Prometheus Java Client Metrics, Next Generation
+  version: 0.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Andrey Markelov
+  last_updated_on: 2019-12-22 09:26:24.000000000 Z
+- name: io.prometheus:simpleclient_common
+  description: Prometheus Java Client Metrics
+  version: 0.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Andrey Markelov
+  last_updated_on: 2019-12-22 09:26:24.000000000 Z
+- name: io.prometheus:simpleclient_hotspot
+  description: Collectors of data from Java Hotspot
+  version: 0.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Andrey Markelov
+  last_updated_on: 2019-12-22 09:26:24.000000000 Z
+- name: javax.servlet:javax.servlet-api
+  description: Java.net - The Source for Java Technology Collaboration
+  version: 3.0.1
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: amarkelov
+  last_updated_on: 2018-01-15 11:42:28.000000000 Z
+- name: javax.ws.rs:jsr311-api
+  version: 1.1.1
+  license: Zed
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/prom-confluence-exporter/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: amarkelov
+  last_updated_on: 2018-01-15 11:42:28.000000000 Z
